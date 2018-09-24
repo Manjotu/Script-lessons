@@ -4,9 +4,12 @@ let ManjotUppal = {
   lasName: "Uppal",
   age: 16,
   male: true,
+  hair: black,
+  female: false,
 }
 
 //printing out entire objects
+console.log(ManjotUppal);
 console.log(ManjotUppal.firstName);
 // Print variables to console
 //console.log(firstName);
