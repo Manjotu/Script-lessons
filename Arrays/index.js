@@ -4,7 +4,6 @@ let ManjotUppal = {
   lasName: "Uppal",
   age: 16,
   male: true,
-  hair: black,
   female: false,
 }
 
