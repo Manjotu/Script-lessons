@@ -1,13 +1,8 @@
 // Create 10 variables about yourself
-let ManjotUppal = {
-  firstName: "Manjot",
-  lasName: "Uppal",
-  age: 16,
-  male: true,
-  female: false,
-}
+let ManjotUppal = [];
+//  firstName, lasName, age, male, female
+ManjotUppal = ["Manjot", "Uppal", 16, true, false];
 
-//printing out entire objects
 console.log(ManjotUppal);
 console.log(ManjotUppal.firstName);
 // Print variables to console
