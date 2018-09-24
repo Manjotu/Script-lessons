@@ -5,11 +5,12 @@ ManjotUppal = ["Manjot", "Uppal", 16, true, false];
 
 console.log(ManjotUppal);
 console.log(ManjotUppal.firstName);
-// Print variables to console
-//console.log(firstName);
-//console.log(lastName);
-//console.log(age);
-//console.log(hair);
+
+
+console.log("last Name is: " + ManjotUppal[1]);
+
+ManjotUppal[1]="Is Awesome";
+console.log(ManjotUppal);
 
 
 
