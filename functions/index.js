@@ -2,7 +2,11 @@
 function greet (firstName, lasName ) {
   console.log('Hello' + firstName + 'World' + lasName);
 }
+function switch (lastName1, lasName2) {
+lastName1 = memory;
+lasName2
 
+}
 function square(number) {
   return number*number;
 }
