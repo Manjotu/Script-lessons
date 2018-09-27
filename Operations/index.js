@@ -8,17 +8,14 @@ function simpleOperators (numberA, numberB){
   console.log(mutliply);
   console.log(divide);
 }
-function skipCounting (){
-  
+//Skipcount by ___ for ___ times starting at ___
+function skipCounting (skipCount, times, startingNumber){
+  console.log(skipCount);
+  for (let i=1; i<=times; i++){
+    skipCount += skipCount;
+    console.log(skipCount);
 }
 let number = [4, 7, 13, 99];
 simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
-skipCounting ();
-
-let skipCount = 15;
-console.log(skipCount);
-for (let i=1; i<=5; i++){
-  skipCount *= 3;
-  console.log(skipCount);
-}
+skipCounting (3, 6, 113) ;
