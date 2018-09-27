@@ -10,10 +10,11 @@ function simpleOperators (numberA, numberB){
 }
 //Skipcount by ___ for ___ times starting at ___
 function skipCounting (skipCount, times, startingNumber){
-  console.log(skipCount);
+  let number = startingNumber - skipCount;
   for (let i=1; i<=times; i++){
-    skipCount += skipCount;
-    console.log(skipCount);
+    number += skipCount;
+    console.log(number);
+  }
 }
 let number = [4, 7, 13, 99];
 simpleOperators (number[0], number[1]);
