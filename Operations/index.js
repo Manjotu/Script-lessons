@@ -20,3 +20,14 @@ let number = [4, 7, 13, 99];
 simpleOperators (number[0], number[1]);
 simpleOperators (number[2], number[3]);
 skipCounting (3, 6, 113);
+
+//function simplecomparison () ()
+function howManyTimes (numberStart, numberEnd, skipCount) {
+  while (numberStart < numberEnd) {
+    console.log(number);
+  number +=skipCount;
+}
+//shrink the code
+  let number = [4, 7, 13, 99, 0];
+
+  howManyTimes (number[4], 100, 5)
