@@ -24,8 +24,8 @@ skipCounting (3, 6, 113);
 //function simplecomparison () ()
 function howManyTimes (numberStart, numberEnd, skipCount) {
   while (numberStart < numberEnd) {
-    console.log(number);
-  number +=skipCount;
+    console.log(numberStart);
+  numberStart +=skipCount;
 }
 //shrink the code
   let number = [4, 7, 13, 99, 0];
